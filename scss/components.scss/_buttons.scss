@@ -1,0 +1,18 @@
+
+.btn {
+    font-size: $fontBtn;
+    border: $borderBtn;
+    background-color:#fff; 
+    color:$TipographyColor;
+    padding: 10px 30px;
+    border-radius: $borderRadiusBtn;
+    margin-top: 20px;
+
+}
+
+.btn:hover {
+    background-color: $primaryColor;
+    color: #fff;
+    cursor: pointer;
+}
+

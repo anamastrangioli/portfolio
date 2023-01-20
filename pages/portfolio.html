@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="Desarrollo web, Diseño UX/UI, Diseñadora web, Páginas web, Diseño gráfico, Diseño de interacción, Productos digitales, pruebas de usabilidad, prototipado">
+    <title>Ana Mastrangioli</title>
+    <script src="https://kit.fontawesome.com/2bb5024471.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+   
+  
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="container">
+        <div class="navbar">
+            <img src="../img/Logo.png" class="logo" alt="Ana Mastrangioli">
+            <nav id="nav">
+               <ul id="menuList">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/portfolio.html">Portfolio</a></li>
+                    <li><a href="../pages/conoceme.html">Conóceme</a></li>
+                    <li><a href="../pages/contacto.html">Contacto</a></li>
+               </ul>
+            </nav>
+            <i class="fa-solid fa-bars menu-icon" onclick="togglemenu()" ></i>
+        </div>
+        <!-- SECCION HERO -->
+        <div class="row-portfolio">
+            <div class="col-1-portfolio">
+                <h1>Portfolio.</h1>
+                <p>Mira algunos mis casos de estudios de diseño UX/UI y mis proyectos de diseño web.</p>
+            </div>
+            <div class="col-2-portfolio">
+                <img src="../img/cabecera-portagolio.png" class="hero-portfolio" alt="Ana Mastrangioli"> 
+            </div>
+        </div>
+    </div>
+    <div class="divider2"></div> 
+
+    <!-- SECCION PROYECTOS -->
+    <div class="row-proyectos">
+        <div class="col-1-oops">
+            <h2>Oops!</h2>
+            <h3>Caso de estudio - Mobile App <br> 
+            <b>Diseño UX/UI</b></h3>
+            <p>Presentamos una app que le permite al usuario solicitar un taller móvil desde cualquier lugar. Además, podrá programar turnos para mantenimiento y comprar accesorios para su bicicleta.</p>
+            <a title="Caso de estudio - UX/UI" href="https://www.behance.net/gallery/140967055/UXUI-Design-app-Taller-movil-de-bicicletas" target="_blank" rel="noopener noreferrer"><button class="btn-portafolio">Ver proyecto</button></a>
+        </div>
+        <div class="col-2-oops">
+            <img src="../img/proyecto-ux-sinfondo.png" alt="App taller de biciletas">
+        </div>
+        
+    </div>
+   
+    <div class="row-proyectos2">
+        <div class="col-1-afip">
+            <img src="../img/proyecto-afip-sinfondo.png" alt="">
+        </div>
+        <div class="col-2-afip">
+            <h2>AFIP</h2>
+            <h3>Caso de estudio - Rediseño App Monotributo <br> 
+            <b>Diseño UX/UI</b></h3>
+            <p>La nueva app de Mi Monotributo simplifica tus tareas haciendo que
+            la experiencia de pagar y/o declarar tus obligaciones impositivas
+            sean como comerte una mila con fritas, satisfactoria.</p>
+            <a title="Rediseño App Mi Monotributo" href="https://www.behance.net/gallery/155711183/Rediseno-App-AFIP-Monotributo-Caso-de-estudio" target="_blank" rel="noopener noreferrer"><button class="btn-portafolio">Ver proyecto</button></a>
+        </div>
+    </div>
+
+    <div class="row-proyectos3">
+        <div class="col-1-anitadice">
+            <h2>Anita Dice</h2>
+            <h3><b>Diseño Web</b></h3>
+            <p>Ecommerce minimalista. Logramos una mejor navegación para los usuarios ofreciendo una mayor claridad y organización de los elementos.</p>
+            <a href="https://anitadice.com/" target="_blank" rel="noopener noreferrer"><button class="btn-portafolio">Ver proyecto</button></a>
+        </div>
+        <div class="col-2-anitadice">
+            <img src="../img/mockup-anitadice.png" alt="Web Anita Dice">
+        </div>
+    </div>
+
+    <div class="row-proyectos4">
+        <div class="col-1-jabimco">
+            <img src="../img/mockup-jabimco.png" alt="Web Jabimco">
+        </div>
+        <div class="col-2-jabimco">
+            <h2>Jabimco</h2>
+            <h3><b>Diseño Web</b></h3>
+            <p>One page creada con Wordpress con estructura simple y limpia. El diseño mejora la experiencia del usuario y le permite  consumir tu contenido de forma lineal y organizada.</p>
+            <a href="https://jabimco.com.ar/" target="_blank" rel="noopener noreferrer"><button class="btn-portafolio">Ver proyecto</button></a>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="socials">
+                <li><a href=""><i class="fa-brands fa-twitter" style="color: white;"></i></a></li>
+                <li><a href="https://www.instagram.com/anamastrangioli/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" style="color: white;"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ana-mastrangioli-5885b873/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in" style="color: white;"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p class="Copyright"> Copyright © 2022 by Ana Mastrangioli</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "150px";
+                }
+
+            else 
+                {
+                    menuList.style.maxHeight = "0px";
+
+                }
+        }
+
+    </script>
+    
+  </body>
+</html>
